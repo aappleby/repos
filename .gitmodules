@@ -1,0 +1,75 @@
+[submodule "aappleby.github.io"]
+	path = aappleby.github.io
+	url = https://github.com/aappleby/aappleby.github.io
+[submodule "gb_spu"]
+	path = gb_spu
+	url = https://github.com/aappleby/gb_spu
+[submodule "matcheroni"]
+	path = matcheroni
+	url = https://github.com/aappleby/matcheroni
+[submodule "metroboy"]
+	path = metroboy
+	url = https://github.com/aappleby/metroboy
+[submodule "metroc"]
+	path = metroc
+	url = https://github.com/aappleby/metroc
+[submodule "metron"]
+	path = metron
+	url = https://github.com/aappleby/metron
+[submodule "metronica"]
+	path = metronica
+	url = https://github.com/aappleby/metronica
+[submodule "picorvd"]
+	path = picorvd
+	url = https://github.com/aappleby/picorvd
+[submodule "pinwheel"]
+	path = pinwheel
+	url = https://github.com/aappleby/pinwheel
+[submodule "plait"]
+	path = plait
+	url = https://github.com/aappleby/plait
+[submodule "rv32iboy"]
+	path = rv32iboy
+	url = https://github.com/aappleby/rv32iboy
+[submodule "smhasher"]
+	path = smhasher
+	url = https://github.com/aappleby/smhasher
+[submodule "wideboard"]
+	path = wideboard
+	url = https://github.com/aappleby/wideboard
+[submodule "metrolib"]
+	path = metrolib
+	url = https://github.com/aappleby/metrolib
+[submodule "CLI11"]
+	path = CLI11
+	url = https://github.com/CLIUtils/CLI11
+[submodule "emsdk"]
+	path = emsdk
+	url = https://github.com/emscripten-core/emsdk
+[submodule "gcc"]
+	path = gcc
+	url = git://gcc.gnu.org/git/gcc.git
+[submodule "glm"]
+	path = glm
+	url = https://github.com/g-truc/glm
+[submodule "icestorm"]
+	path = icestorm
+	url = https://github.com/YosysHQ/icestorm
+[submodule "imgui"]
+	path = imgui
+	url = https://github.com/ocornut/imgui
+[submodule "iverilog"]
+	path = iverilog
+	url = https://github.com/steveicarus/iverilog
+[submodule "nextpnr"]
+	path = nextpnr
+	url = https://github.com/YosysHQ/nextpnr
+[submodule "rapidjson"]
+	path = rapidjson
+	url = https://github.com/Tencent/rapidjson
+[submodule "yosys"]
+	path = yosys
+	url = https://github.com/YosysHQ/yosys
+[submodule "verilator"]
+	path = verilator
+	url = https://github.com/verilator/verilator
