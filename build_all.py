@@ -20,11 +20,6 @@ os.system("cd metroboy && ninja")
 print("\u001b[38;2;180;180;255m========== metronica ==========\u001b[0m")
 os.system("cd metronica && ninja")
 
-
-
-# gb_spu
-# metroboy
-# metronica
 # picorvd
 # pinwheel
 # plait
