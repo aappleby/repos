@@ -73,3 +73,15 @@
 [submodule "verilator"]
 	path = verilator
 	url = https://github.com/verilator/verilator
+[submodule "gbmicrotest"]
+	path = gbmicrotest
+	url = https://github.com/aappleby/gbmicrotest
+[submodule "SDL"]
+	path = SDL
+	url = https://github.com/libsdl-org/SDL
+[submodule "gb-live32"]
+	path = gb-live32
+	url = https://github.com/Gekkio/gb-live32
+[submodule "json"]
+	path = json
+	url = https://github.com/nlohmann/json

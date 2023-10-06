@@ -1,8 +1,5 @@
 #!/usr/bin/python3
 
-#for x in glob.iglob('*'):
-#    print(x)
-
 import os
 import glob
 
@@ -33,31 +30,3 @@ os.system("cd metron && ./build.py && ninja")
 # rv32iboy
 # smhasher
 # wideboard
-
-
-
-#for root, dirs, files in os.walk('.'):
-#	for dir in dirs:
-#		dir = root_dir + "/" + dir
-#		#print("\n\n########################################")
-#		print(dir)
-#		os.chdir(dir)
-#		#os.system("git status")
-#		os.system("git pull")
-#	break
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
