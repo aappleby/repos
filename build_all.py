@@ -1,21 +1,14 @@
 #!/usr/bin/python3
 
 import os
-import glob
 
-root_dir = os.getcwd();
-print(os.getcwd())
-
-# metrolib
-print("building metrolib")
+print("\u001b[38;2;180;180;255m========== metrolib ==========\u001b[0m")
 os.system("cd metrolib && ninja")
 
-# matcheroni
-print("building matcheroni")
+print("\u001b[38;2;180;180;255m========== matcheroni ==========\u001b[0m")
 os.system("cd matcheroni && ninja")
 
-# metron
-print("building metron")
+print("\u001b[38;2;180;180;255m========== metron ==========\u001b[0m")
 os.system("cd metron && ./build.py && ninja")
 
 
