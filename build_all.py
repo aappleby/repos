@@ -2,29 +2,35 @@
 
 import os
 
+def run(command):
+	result = os.system(command)
+	if result != 0:
+		print(f"Command '{command}' failed")
+		quit()
+
 print("\u001b[38;2;180;180;255m========== metrolib ==========\u001b[0m")
-os.system("cd metrolib && ninja")
+run("cd metrolib && ninja")
 
 print("\u001b[38;2;180;180;255m========== matcheroni ==========\u001b[0m")
-os.system("cd matcheroni && ninja")
+run("cd matcheroni && ninja")
 
 print("\u001b[38;2;180;180;255m========== metron ==========\u001b[0m")
-os.system("cd metron && ./build.py && ninja")
+run("cd metron && ./build.py && ninja")
 
 print("\u001b[38;2;180;180;255m========== metroc ==========\u001b[0m")
-os.system("cd metroc && ninja")
+run("cd metroc && ninja")
 
 print("\u001b[38;2;180;180;255m========== metroboy ==========\u001b[0m")
-os.system("cd metroboy && ninja")
+run("cd metroboy && ninja")
 
 print("\u001b[38;2;180;180;255m========== metronica ==========\u001b[0m")
-os.system("cd metronica && ninja")
+run("cd metronica && ninja")
 
-# picorvd
+print("\u001b[38;2;180;180;255m========== picorvd ==========\u001b[0m")
+run("cd picorvd && ./build.sh")
+
 # pinwheel
 # plait
-
-
 
 # smhasher
 # rv32iboy
