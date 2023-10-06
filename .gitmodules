@@ -1,9 +1,6 @@
 [submodule "aappleby.github.io"]
 	path = aappleby.github.io
 	url = https://github.com/aappleby/aappleby.github.io
-[submodule "gb_spu"]
-	path = gb_spu
-	url = https://github.com/aappleby/gb_spu
 [submodule "matcheroni"]
 	path = matcheroni
 	url = https://github.com/aappleby/matcheroni
