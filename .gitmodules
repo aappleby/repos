@@ -82,3 +82,24 @@
 [submodule "json"]
 	path = json
 	url = https://github.com/nlohmann/json
+[submodule "JSONTestSuite"]
+	path = JSONTestSuite
+	url = https://github.com/nst/JSONTestSuite
+[submodule "chumsky"]
+	path = chumsky
+	url = https://github.com/zesterer/chumsky
+[submodule "compile-time-regular-expressions"]
+	path = compile-time-regular-expressions
+	url = https://github.com/hanickadot/compile-time-regular-expressions
+[submodule "nativejson-benchmark"]
+	path = nativejson-benchmark
+	url = https://github.com/miloyip/nativejson-benchmark
+[submodule "regex-benchmark"]
+	path = regex-benchmark
+	url = https://github.com/mariomka/regex-benchmark
+[submodule "regex-performance"]
+	path = regex-performance
+	url = https://github.com/HFTrader/regex-performance
+[submodule "tiny-regex-c"]
+	path = tiny-regex-c
+	url = https://github.com/kokke/tiny-regex-c
