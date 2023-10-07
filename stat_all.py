@@ -2,12 +2,18 @@
 
 import os
 import sys
+import subprocess
 
-print(f"\u001b[38;2;180;255;180mMETAREPO ========================== \u001b[0m", end="")
-sys.stdout.flush()
-os.system(f"git status -s -b")
-#os.system(f"git log --branches --not --remotes")
+def run(tag, cmd):
+	print(tag, end="");
+	sys.stdout.flush()
+	ret = subprocess.check_output(cmd, shell=True)
+	print(ret.decode(), end="")
+
 os.system("find . -xtype l")
+
+run(f"\u001b[38;2;180;255;180mMETAREPO ========================== \u001b[0m",
+    f"git -c color.status=always status -s -b")
 
 for root, dirs, files in os.walk('.'):
 	for dir in sorted(dirs):
@@ -15,10 +21,8 @@ for root, dirs, files in os.walk('.'):
 			continue
 		if not os.path.exists(dir + "/.git"):
 			continue
-		print(f"\u001b[38;2;180;180;255m{(dir + ' ').ljust(35, '=')} \u001b[0m", end="")
-		sys.stdout.flush()
-		os.system(f"cd {dir} && git status -s -b")
-		#os.system(f"cd {dir} && git log --branches --not --remotes")
+		run(f"\u001b[38;2;180;180;255m{(dir + ' ').ljust(35, '=')} \u001b[0m",
+                    f"cd {dir} && git status -s -b")
 	break
 
 
