@@ -9,25 +9,26 @@ def run(command):
 		quit(-1)
 
 print("\u001b[38;2;180;180;255m========== metrolib ==========\u001b[0m")
-run("cd metrolib && ninja")
+run("cd metrolib && ninja -t clean")
 
 print("\u001b[38;2;180;180;255m========== matcheroni ==========\u001b[0m")
-run("cd matcheroni && ninja")
+run("cd matcheroni && ninja -t clean")
+run("cd matcheroni && ninja -f build_docs.ninja -t clean")
 
 print("\u001b[38;2;180;180;255m========== metron ==========\u001b[0m")
-run("cd metron && ./build.py && ninja")
+run("cd metron && ./build.py && ninja -t clean")
 
 print("\u001b[38;2;180;180;255m========== metroc ==========\u001b[0m")
-run("cd metroc && ninja")
+run("cd metroc && ninja -t clean")
 
 print("\u001b[38;2;180;180;255m========== metroboy ==========\u001b[0m")
-run("cd metroboy && ninja")
+run("cd metroboy && ninja -t clean")
 
 print("\u001b[38;2;180;180;255m========== metronica ==========\u001b[0m")
-run("cd metronica && ninja")
+run("cd metronica && ninja -t clean")
 
-print("\u001b[38;2;180;180;255m========== picorvd ==========\u001b[0m")
-run("cd picorvd && ./build.sh")
+#print("\u001b[38;2;180;180;255m========== picorvd ==========\u001b[0m")
+#run("cd picorvd && ./build.sh")
 
 # pinwheel
 # plait
@@ -37,4 +38,4 @@ run("cd picorvd && ./build.sh")
 # aappleby.github.io
 # wideboard
 
-print("\u001b[38;2;180;255;180m========== Build OK ==========\u001b[0m")
+print("\u001b[38;2;180;255;180m========== Clean OK ==========\u001b[0m")

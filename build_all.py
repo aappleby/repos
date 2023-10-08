@@ -13,6 +13,7 @@ run("cd metrolib && ninja")
 
 print("\u001b[38;2;180;180;255m========== matcheroni ==========\u001b[0m")
 run("cd matcheroni && ninja")
+run("cd matcheroni && ninja -f build_docs.ninja")
 
 print("\u001b[38;2;180;180;255m========== metron ==========\u001b[0m")
 run("cd metron && ./build.py && ninja")
