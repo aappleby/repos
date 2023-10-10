@@ -30,6 +30,9 @@ run("cd metronica && ninja")
 print("\u001b[38;2;180;180;255m========== picorvd ==========\u001b[0m")
 run("cd picorvd && ./build.sh")
 
+print("\u001b[38;2;180;180;255m========== plait ==========\u001b[0m")
+run("cd plait && ninja")
+
 # pinwheel
 # plait
 
