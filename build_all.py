@@ -33,12 +33,13 @@ run("cd picorvd && ./build.sh")
 print("\u001b[38;2;180;180;255m========== plait ==========\u001b[0m")
 run("cd plait && ninja")
 
+print("\u001b[38;2;180;180;255m========== wideboard ==========\u001b[0m")
+run("cd wideboard && tsc -v")
+
 # pinwheel
-# plait
 
 # smhasher
 # rv32iboy
 # aappleby.github.io
-# wideboard
 
 print("\u001b[38;2;180;255;180m========== Build OK ==========\u001b[0m")
