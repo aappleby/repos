@@ -1,3 +1,5 @@
+git submodule init
+git submodule update
 apt -y install git build-essential ninja-build python3 libicu-dev libsdl2-dev gcc-riscv64-unknown-elf srecord gcc-arm-none-eabi xxd nodejs
 npm install -g typescript
 
