@@ -3,7 +3,9 @@ git submodule update
 apt -y install git build-essential ninja-build python3 libicu-dev libsdl2-dev gcc-riscv64-unknown-elf srecord gcc-arm-none-eabi xxd nodejs
 npm install -g typescript
 
-./install_emscripten.sh
+#./install_emscripten.sh
+emsdk/emsdk install latest
+emsdk/emsdk activate latest
 source emsdk/emsdk_env.sh
 
 ./install_icarus.sh
