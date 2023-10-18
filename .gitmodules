@@ -103,3 +103,6 @@
 [submodule "tiny-regex-c"]
 	path = tiny-regex-c
 	url = https://github.com/kokke/tiny-regex-c
+[submodule "sdram-tang-nano-20k"]
+	path = sdram-tang-nano-20k
+	url = https://github.com/nand2mario/sdram-tang-nano-20k
