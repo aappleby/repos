@@ -17,9 +17,9 @@ for root, dirs, files in os.walk('.'):
 		if not os.path.exists(dir + "/.git"):
 			continue
 		run(f"\u001b[38;2;180;180;255m{(dir + ' ').ljust(35, '=')} \u001b[0m",
-                    f"cd {dir} && git checkout main")
-		run(f"\u001b[38;2;180;180;255m{(dir + ' ').ljust(35, '=')} \u001b[0m",
                     f"cd {dir} && git checkout master")
+		run(f"\u001b[38;2;180;180;255m{(dir + ' ').ljust(35, '=')} \u001b[0m",
+                    f"cd {dir} && git checkout main")
 	break
 
 
