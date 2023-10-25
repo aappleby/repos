@@ -36,7 +36,8 @@ run("cd plait && ninja")
 print("\u001b[38;2;180;180;255m========== wideboard ==========\u001b[0m")
 run("cd wideboard && tsc -v")
 
-# pinwheel
+print("\u001b[38;2;180;180;255m========== pinwheel ==========\u001b[0m")
+run("cd pinwheel && ninja")
 
 # smhasher
 # rv32iboy
