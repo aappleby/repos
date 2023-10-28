@@ -142,3 +142,9 @@
 	path = sdram-tang-nano-20k
 	url = https://github.com/nand2mario/sdram-tang-nano-20k
 	branch = main
+[submodule "prjtrellis"]
+	path = prjtrellis
+	url = https://github.com/YosysHQ/prjtrellis
+[submodule "fujprog"]
+	path = fujprog
+	url = https://github.com/kost/fujprog
