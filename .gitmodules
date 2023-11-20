@@ -148,3 +148,12 @@
 [submodule "fujprog"]
 	path = fujprog
 	url = https://github.com/kost/fujprog
+[submodule "ibex"]
+	path = ibex
+	url = https://github.com/lowRISC/ibex
+[submodule "sv2v"]
+	path = sv2v
+	url = https://github.com/zachjs/sv2v
+[submodule "picorv32"]
+	path = picorv32
+	url = https://github.com/YosysHQ/picorv32
