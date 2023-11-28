@@ -1,4 +1,6 @@
+git submodule init icestorm
+git submodule update icestorm
 cd icestorm
-apt -y install build-essential libftdi-dev
-make
-make install
+sudo apt -y install build-essential libftdi-dev
+make -j$(nproc)
+sudo make install
