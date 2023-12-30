@@ -58,10 +58,6 @@
 	path = emsdk
 	url = https://github.com/emscripten-core/emsdk
 	branch = master
-[submodule "gcc"]
-	path = gcc
-	url = git://gcc.gnu.org/git/gcc.git
-	branch = master
 [submodule "glm"]
 	path = glm
 	url = https://github.com/g-truc/glm
@@ -160,3 +156,6 @@
 [submodule "corundum"]
 	path = corundum
 	url = https://github.com/corundum/corundum
+[submodule "gcc"]
+	path = gcc
+	url = git://gcc.gnu.org/git/gcc.git
