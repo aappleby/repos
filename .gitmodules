@@ -159,3 +159,6 @@
 [submodule "gcc"]
 	path = gcc
 	url = git://gcc.gnu.org/git/gcc.git
+[submodule "hancho"]
+	path = hancho
+	url = https://github.com/aappleby/hancho
