@@ -10,7 +10,6 @@ def run(tag, cmd):
 	ret = subprocess.check_output(cmd, shell=True)
 	print(ret.decode(), end="")
 
-os.system("find . -xtype l")
 
 run(f"\u001b[38;2;180;255;180mMETAREPO ========================== \u001b[0m",
     f"git -c color.status=always status -s -b")
@@ -26,3 +25,6 @@ for root, dirs, files in os.walk('.'):
 	break
 
 
+print("Broken symlinks: ")
+os.system("find . -xtype l")
+print()
