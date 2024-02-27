@@ -1,3 +1,5 @@
+git submodule init
+git submodule update
 sudo apt update
 sudo apt -y install git nano 
 # tzdata wants user interaction by default, so we install it first with interaction turned off
@@ -15,3 +17,5 @@ source emsdk/emsdk_env.sh
 ./install_nextpnr.sh
 ./install_verilator.sh
 ./install_yosys.sh
+./install_prjtrellis.sh
+./install_sv2v.sh
