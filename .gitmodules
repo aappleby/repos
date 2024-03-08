@@ -101,7 +101,7 @@
 [submodule "gb-live32"]
 	path = gb-live32
 	url = https://github.com/Gekkio/gb-live32
-	branch = master
+	branch = main
 [submodule "json"]
 	path = json
 	url = https://github.com/nlohmann/json
