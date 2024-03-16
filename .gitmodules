@@ -1,143 +1,108 @@
 [submodule "aappleby.github.io"]
 	path = aappleby.github.io
 	url = https://github.com/aappleby/aappleby.github.io
-	branch = master
 [submodule "matcheroni"]
 	path = matcheroni
 	url = https://github.com/aappleby/matcheroni
-	branch = main
 [submodule "metroboy"]
 	path = metroboy
 	url = https://github.com/aappleby/metroboy
-	branch = master
 [submodule "metroc"]
 	path = metroc
 	url = https://github.com/aappleby/metroc
-	branch = main
 [submodule "metron"]
 	path = metron
 	url = https://github.com/aappleby/metron
-	branch = master
 [submodule "metronica"]
 	path = metronica
 	url = https://github.com/aappleby/metronica
-	branch = main
 [submodule "picorvd"]
 	path = picorvd
 	url = https://github.com/aappleby/picorvd
-	branch = master
 [submodule "pinwheel"]
 	path = pinwheel
 	url = https://github.com/aappleby/pinwheel
-	branch = main
 [submodule "plait"]
 	path = plait
 	url = https://github.com/aappleby/plait
-	branch = main
 [submodule "rv32iboy"]
 	path = rv32iboy
 	url = https://github.com/aappleby/rv32iboy
-	branch = master
 [submodule "smhasher"]
 	path = smhasher
 	url = https://github.com/aappleby/smhasher
-	branch = master
 [submodule "wideboard"]
 	path = wideboard
 	url = https://github.com/aappleby/wideboard
-	branch = master
 [submodule "metrolib"]
 	path = metrolib
 	url = https://github.com/aappleby/metrolib
-	branch = main
 [submodule "CLI11"]
 	path = CLI11
 	url = https://github.com/CLIUtils/CLI11
-	branch = main
 [submodule "emsdk"]
 	path = emsdk
 	url = https://github.com/emscripten-core/emsdk
-	branch = master
 [submodule "glm"]
 	path = glm
 	url = https://github.com/g-truc/glm
-	branch = master
 [submodule "icestorm"]
 	path = icestorm
 	url = https://github.com/YosysHQ/icestorm
-	branch = master
 [submodule "imgui"]
 	path = imgui
 	url = https://github.com/ocornut/imgui
-	branch = master
 [submodule "iverilog"]
 	path = iverilog
 	url = https://github.com/steveicarus/iverilog
-	branch = master
 [submodule "nextpnr"]
 	path = nextpnr
 	url = https://github.com/YosysHQ/nextpnr
-	branch = master
 [submodule "rapidjson"]
 	path = rapidjson
 	url = https://github.com/Tencent/rapidjson
-	branch = master
 [submodule "yosys"]
 	path = yosys
 	url = https://github.com/YosysHQ/yosys
-	branch = master
 [submodule "verilator"]
 	path = verilator
 	url = https://github.com/verilator/verilator
-	branch = master
 [submodule "gbmicrotest"]
 	path = gbmicrotest
 	url = https://github.com/aappleby/gbmicrotest
-	branch = main
 [submodule "SDL"]
 	path = SDL
 	url = https://github.com/libsdl-org/SDL
-	branch = main
 [submodule "gb-live32"]
 	path = gb-live32
 	url = https://github.com/Gekkio/gb-live32
-	branch = main
 [submodule "json"]
 	path = json
 	url = https://github.com/nlohmann/json
-	branch = master
 [submodule "JSONTestSuite"]
 	path = JSONTestSuite
 	url = https://github.com/nst/JSONTestSuite
-	branch = master
 [submodule "chumsky"]
 	path = chumsky
 	url = https://github.com/zesterer/chumsky
-	branch = main
 [submodule "compile-time-regular-expressions"]
 	path = compile-time-regular-expressions
 	url = https://github.com/hanickadot/compile-time-regular-expressions
-	branch = master
 [submodule "nativejson-benchmark"]
 	path = nativejson-benchmark
 	url = https://github.com/miloyip/nativejson-benchmark
-	branch = master
 [submodule "regex-benchmark"]
 	path = regex-benchmark
 	url = https://github.com/mariomka/regex-benchmark
-	branch = master
 [submodule "regex-performance"]
 	path = regex-performance
 	url = https://github.com/HFTrader/regex-performance
-	branch = master
 [submodule "tiny-regex-c"]
 	path = tiny-regex-c
 	url = https://github.com/kokke/tiny-regex-c
-	branch = master
 [submodule "sdram-tang-nano-20k"]
 	path = sdram-tang-nano-20k
 	url = https://github.com/nand2mario/sdram-tang-nano-20k
-	branch = main
 [submodule "prjtrellis"]
 	path = prjtrellis
 	url = https://github.com/YosysHQ/prjtrellis
