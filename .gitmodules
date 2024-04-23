@@ -58,9 +58,6 @@
 [submodule "nextpnr"]
 	path = nextpnr
 	url = https://github.com/YosysHQ/nextpnr
-[submodule "rapidjson"]
-	path = rapidjson
-	url = https://github.com/Tencent/rapidjson
 [submodule "yosys"]
 	path = yosys
 	url = https://github.com/YosysHQ/yosys
@@ -79,21 +76,6 @@
 [submodule "json"]
 	path = json
 	url = https://github.com/nlohmann/json
-[submodule "JSONTestSuite"]
-	path = JSONTestSuite
-	url = https://github.com/nst/JSONTestSuite
-[submodule "chumsky"]
-	path = chumsky
-	url = https://github.com/zesterer/chumsky
-[submodule "compile-time-regular-expressions"]
-	path = compile-time-regular-expressions
-	url = https://github.com/hanickadot/compile-time-regular-expressions
-[submodule "regex-benchmark"]
-	path = regex-benchmark
-	url = https://github.com/mariomka/regex-benchmark
-[submodule "tiny-regex-c"]
-	path = tiny-regex-c
-	url = https://github.com/kokke/tiny-regex-c
 [submodule "sdram-tang-nano-20k"]
 	path = sdram-tang-nano-20k
 	url = https://github.com/nand2mario/sdram-tang-nano-20k
@@ -112,9 +94,6 @@
 [submodule "picorv32"]
 	path = picorv32
 	url = https://github.com/YosysHQ/picorv32
-[submodule "corundum"]
-	path = corundum
-	url = https://github.com/corundum/corundum
 [submodule "gcc"]
 	path = gcc
 	url = git://gcc.gnu.org/git/gcc.git
