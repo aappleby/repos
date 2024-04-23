@@ -94,9 +94,6 @@
 [submodule "regex-benchmark"]
 	path = regex-benchmark
 	url = https://github.com/mariomka/regex-benchmark
-[submodule "regex-performance"]
-	path = regex-performance
-	url = https://github.com/HFTrader/regex-performance
 [submodule "tiny-regex-c"]
 	path = tiny-regex-c
 	url = https://github.com/kokke/tiny-regex-c
