@@ -88,9 +88,6 @@
 [submodule "compile-time-regular-expressions"]
 	path = compile-time-regular-expressions
 	url = https://github.com/hanickadot/compile-time-regular-expressions
-[submodule "nativejson-benchmark"]
-	path = nativejson-benchmark
-	url = https://github.com/miloyip/nativejson-benchmark
 [submodule "regex-benchmark"]
 	path = regex-benchmark
 	url = https://github.com/mariomka/regex-benchmark
