@@ -127,3 +127,4 @@
 [submodule "hancho"]
 	path = hancho
 	url = https://github.com/aappleby/hancho
+        branch = .
