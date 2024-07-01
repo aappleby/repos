@@ -101,3 +101,6 @@
 	path = hancho
 	url = https://github.com/aappleby/hancho
         branch = .
+[submodule "ZoomyTrace"]
+	path = ZoomyTrace
+	url = https://github.com/aappleby/ZoomyTrace
