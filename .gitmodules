@@ -104,3 +104,6 @@
 [submodule "ZoomyTrace"]
 	path = ZoomyTrace
 	url = https://github.com/aappleby/ZoomyTrace
+[submodule "tempus"]
+	path = tempus
+	url = http://github.com/aappleby/tempus
