@@ -38,64 +38,64 @@
 	path = metrolib
 	url = https://github.com/aappleby/metrolib
 [submodule "CLI11"]
-	path = CLI11
+	path = third_party/CLI11
 	url = https://github.com/CLIUtils/CLI11
 [submodule "emsdk"]
-	path = emsdk
+	path = third_party/emsdk
 	url = https://github.com/emscripten-core/emsdk
 [submodule "glm"]
-	path = glm
+	path = third_party/glm
 	url = https://github.com/g-truc/glm
 [submodule "icestorm"]
-	path = icestorm
+	path = third_party/icestorm
 	url = https://github.com/YosysHQ/icestorm
 [submodule "imgui"]
-	path = imgui
+	path = third_party/imgui
 	url = https://github.com/ocornut/imgui
 [submodule "iverilog"]
-	path = iverilog
+	path = third_party/iverilog
 	url = https://github.com/steveicarus/iverilog
 [submodule "nextpnr"]
-	path = nextpnr
+	path = third_party/nextpnr
 	url = https://github.com/YosysHQ/nextpnr
 [submodule "yosys"]
-	path = yosys
+	path = third_party/yosys
 	url = https://github.com/YosysHQ/yosys
 [submodule "verilator"]
-	path = verilator
+	path = third_party/verilator
 	url = https://github.com/verilator/verilator
 [submodule "gbmicrotest"]
 	path = gbmicrotest
 	url = https://github.com/aappleby/gbmicrotest
 [submodule "SDL"]
-	path = SDL
+	path = third_party/SDL
 	url = https://github.com/libsdl-org/SDL
 [submodule "gb-live32"]
-	path = gb-live32
+	path = third_party/gb-live32
 	url = https://github.com/Gekkio/gb-live32
 [submodule "json"]
-	path = json
+	path = third_party/json
 	url = https://github.com/nlohmann/json
 [submodule "sdram-tang-nano-20k"]
-	path = sdram-tang-nano-20k
+	path = third_party/sdram-tang-nano-20k
 	url = https://github.com/nand2mario/sdram-tang-nano-20k
 [submodule "prjtrellis"]
-	path = prjtrellis
+	path = third_party/prjtrellis
 	url = https://github.com/YosysHQ/prjtrellis
 [submodule "fujprog"]
-	path = fujprog
+	path = third_party/fujprog
 	url = https://github.com/kost/fujprog
 [submodule "ibex"]
-	path = ibex
+	path = third_party/ibex
 	url = https://github.com/lowRISC/ibex
 [submodule "sv2v"]
-	path = sv2v
+	path = third_party/sv2v
 	url = https://github.com/zachjs/sv2v
 [submodule "picorv32"]
-	path = picorv32
+	path = third_party/picorv32
 	url = https://github.com/YosysHQ/picorv32
 [submodule "gcc"]
-	path = gcc
+	path = third_party/gcc
 	url = git://gcc.gnu.org/git/gcc.git
 [submodule "hancho"]
 	path = hancho
