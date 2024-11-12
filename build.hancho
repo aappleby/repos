@@ -1,0 +1,9 @@
+hancho.base_rules  = hancho.repo("{hancho_dir}/base_rules.hancho")
+hancho.fpga_rules  = hancho.repo("{hancho_dir}/fpga_rules.hancho")
+hancho.riscv_rules = hancho.repo("{hancho_dir}/riscv_rules.hancho")
+hancho.wasm_rules  = hancho.repo("{hancho_dir}/wasm_rules.hancho")
+
+hancho.metrolib   = hancho.repo("metrolib/build.hancho")
+hancho.matcheroni = hancho.repo("matcheroni/build.hancho")
+hancho.metron     = hancho.repo("metron/build.hancho")
+hancho.pinwheel   = hancho.repo("pinwheel/build.hancho")
