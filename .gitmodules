@@ -7,9 +7,6 @@
 [submodule "metroboy"]
 	path = metroboy
 	url = https://github.com/aappleby/metroboy
-[submodule "metroc"]
-	path = metroc
-	url = https://github.com/aappleby/metroc
 [submodule "metron"]
 	path = metron
 	url = https://github.com/aappleby/metron
