@@ -1,0 +1,19 @@
+{
+  "files.exclude":{
+    "third_party/gcc": true,
+    "third_party/emsdk": true,
+    "third_party/nextpnr": true,
+    "third_party/yosys": true,
+    "third_party/verilator": true,
+    "third_party/prjtrellis": true,
+    "third_party/sv2v": true,
+    "third_party/SDL": true,
+    "third_party/fujprog": true,
+    "third_party/icestorm": true,
+    "third_party/iverilog": true,
+    "third_party/CLI11": true,
+    "third_party/glm": true,
+    "third_party/ibex": true,
+    "third_party/json": true,
+  }
+}
