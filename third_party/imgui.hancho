@@ -1,9 +1,0 @@
-import glob
-
-hancho.base_rules = hancho.repo("{hancho_dir}/base_rules.hancho")
-
-lib = hancho(
-    hancho.base_rules.cpp_lib,
-    in_srcs   = glob.glob("imgui/*.cpp"),
-    out_lib   = "imgui/libimgui.a",
-)

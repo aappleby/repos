@@ -1,106 +1,106 @@
 [submodule "aappleby.github.io"]
-	path = aappleby.github.io
+	path = aappleby/aappleby.github.io
 	url = https://github.com/aappleby/aappleby.github.io
 [submodule "matcheroni"]
-	path = matcheroni
+	path = aappleby/matcheroni
 	url = https://github.com/aappleby/matcheroni
 [submodule "metroboy"]
-	path = metroboy
+	path = aappleby/metroboy
 	url = https://github.com/aappleby/metroboy
 [submodule "metron"]
-	path = metron
+	path = aappleby/metron
 	url = https://github.com/aappleby/metron
 [submodule "metronica"]
-	path = metronica
+	path = aappleby/metronica
 	url = https://github.com/aappleby/metronica
 [submodule "picorvd"]
-	path = picorvd
+	path = aappleby/picorvd
 	url = https://github.com/aappleby/picorvd
 [submodule "pinwheel"]
-	path = pinwheel
+	path = aappleby/pinwheel
 	url = https://github.com/aappleby/pinwheel
 [submodule "plait"]
-	path = plait
+	path = aappleby/plait
 	url = https://github.com/aappleby/plait
 [submodule "rv32iboy"]
-	path = rv32iboy
+	path = aappleby/rv32iboy
 	url = https://github.com/aappleby/rv32iboy
 [submodule "smhasher"]
-	path = smhasher
+	path = aappleby/smhasher
 	url = https://github.com/aappleby/smhasher
 [submodule "wideboard"]
-	path = wideboard
+	path = aappleby/wideboard
 	url = https://github.com/aappleby/wideboard
 [submodule "metrolib"]
-	path = metrolib
+	path = aappleby/metrolib
 	url = https://github.com/aappleby/metrolib
 [submodule "CLI11"]
-	path = third_party/CLI11
+	path = github/CLIUtils/CLI11
 	url = https://github.com/CLIUtils/CLI11
 [submodule "emsdk"]
-	path = third_party/emsdk
+	path = github/emscripten-core/emsdk
 	url = https://github.com/emscripten-core/emsdk
 [submodule "glm"]
-	path = third_party/glm
+	path = github/g-truc/glm
 	url = https://github.com/g-truc/glm
 [submodule "icestorm"]
-	path = third_party/icestorm
+	path = github/YosysHQ/icestorm
 	url = https://github.com/YosysHQ/icestorm
 [submodule "imgui"]
-	path = third_party/imgui
+	path = github/ocornut/imgui
 	url = https://github.com/ocornut/imgui
 [submodule "iverilog"]
-	path = third_party/iverilog
+	path = github/steveicarus/iverilog
 	url = https://github.com/steveicarus/iverilog
 [submodule "nextpnr"]
-	path = third_party/nextpnr
+	path = github/YosysHQ/nextpnr
 	url = https://github.com/YosysHQ/nextpnr
 [submodule "yosys"]
-	path = third_party/yosys
+	path = github/YosysHQ/yosys
 	url = https://github.com/YosysHQ/yosys
 [submodule "verilator"]
-	path = third_party/verilator
+	path = github/verilator/verilator
 	url = https://github.com/verilator/verilator
 [submodule "gbmicrotest"]
-	path = gbmicrotest
+	path = aappleby/gbmicrotest
 	url = https://github.com/aappleby/gbmicrotest
 [submodule "SDL"]
-	path = third_party/SDL
+	path = github/libsdl-org/SDL
 	url = https://github.com/libsdl-org/SDL
 [submodule "gb-live32"]
-	path = third_party/gb-live32
+	path = github/Gekkio/gb-live32
 	url = https://github.com/Gekkio/gb-live32
 [submodule "json"]
-	path = third_party/json
+	path = github/nlohmann/json
 	url = https://github.com/nlohmann/json
 [submodule "sdram-tang-nano-20k"]
-	path = third_party/sdram-tang-nano-20k
+	path = github/nand2mario/sdram-tang-nano-20k
 	url = https://github.com/nand2mario/sdram-tang-nano-20k
 [submodule "prjtrellis"]
-	path = third_party/prjtrellis
+	path = github/YosysHQ/prjtrellis
 	url = https://github.com/YosysHQ/prjtrellis
 [submodule "fujprog"]
-	path = third_party/fujprog
+	path = github/kost/fujprog
 	url = https://github.com/kost/fujprog
 [submodule "ibex"]
-	path = third_party/ibex
+	path = github/lowRISC/ibex
 	url = https://github.com/lowRISC/ibex
 [submodule "sv2v"]
-	path = third_party/sv2v
+	path = github/zachjs/sv2v
 	url = https://github.com/zachjs/sv2v
 [submodule "picorv32"]
-	path = third_party/picorv32
+	path = github/YosysHQ/picorv32
 	url = https://github.com/YosysHQ/picorv32
 [submodule "gcc"]
-	path = third_party/gcc
+	path = github/gcc
 	url = git://gcc.gnu.org/git/gcc.git
 [submodule "hancho"]
-	path = hancho
+	path = aappleby/hancho
 	url = https://github.com/aappleby/hancho
         branch = .
 [submodule "ZoomyTrace"]
-	path = zoomytrace
+	path = aappleby/zoomytrace
 	url = https://github.com/aappleby/ZoomyTrace
 [submodule "tempus"]
-	path = tempus
+	path = aappleby/tempus
 	url = http://github.com/aappleby/tempus

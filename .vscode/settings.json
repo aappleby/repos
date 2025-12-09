@@ -1,0 +1,24 @@
+{
+  "files.exclude":{
+    "github/CLIUtils": true,
+    "github/emscripten-core": true,
+    "github/gcc": true,
+    "github/Gekkio": true,
+    "github/glad": true,
+    "github/g-truc": true,
+    "github/kost": true,
+    "github/libsdl-org": true,
+    "github/lowRISC": true,
+    "github/nand2mario": true,
+    "github/nlohmann": true,
+    "github/ocornut": true,
+    "github/steveicarus": true,
+    "github/verilator": true,
+    "github/YosysHQ": true,
+    "github/zachjs": true,
+  }
+}
+
+
+
+

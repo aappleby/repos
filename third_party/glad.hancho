@@ -1,7 +1,0 @@
-hancho.base_rules = hancho.repo("{hancho_dir}/base_rules.hancho")
-
-lib = hancho(
-    hancho.base_rules.cpp_lib,
-    in_srcs   = ["glad/glad.c"],
-    out_lib   = "glad/libglad.a",
-)
