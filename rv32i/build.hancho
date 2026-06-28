@@ -1,10 +1,8 @@
 import glob
+import hancho
 
-#build_dir = hancho.expand(hancho.context.build_dir)
-
-build_dir = hancho.context.expand("{build_dir}")
-
-build_rv_hex = task(
+build_rv_hex = hancho.Tool(
+    desc = "Compiling {in_src}",
     command=[
         "riscv64-unknown-elf-gcc -mabi=ilp32 -march=rv32i -c {in_src} -o {out_o}",
         "riscv64-unknown-elf-ld -T{in_linkerscript} -melf32lriscv {out_o} -o {out_elf}",
@@ -22,7 +20,7 @@ build_rv_hex = task(
     out_data_vh="{stem(in_src)}.data.vh",
 )
 
-tasks = []
-for _file in glob.glob("*.S"):
-    _task = hancho(build_rv_hex, in_src=_file)
-    tasks.append(_task)
+tasks = [
+    hancho.task(build_rv_hex, in_src=f)
+    for f in glob.glob("*.S")
+]

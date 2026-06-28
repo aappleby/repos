@@ -1,5 +1,13 @@
 {
   "files.exclude":{
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/__pycache__": true,
+    "**/.claude": true,
+    "**/.pytest_cache": true,
     "third_party/gcc": true,
     "third_party/emsdk": true,
     "third_party/nextpnr": true,
@@ -14,6 +22,11 @@
     "third_party/CLI11": true,
     "third_party/glm": true,
     "third_party/ibex": true,
-    "third_party/json": true,
-  }
+    "third_party/json": true
+  },
+  "ruff.exclude": [
+    "**/*.hancho",
+    "*.hancho"
+  ],
+  "C_Cpp.default.compilerPath": "/usr/bin/g++"
 }
