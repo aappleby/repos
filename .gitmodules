@@ -102,4 +102,4 @@
 	url = https://github.com/aappleby/ZoomyTrace
 [submodule "tempus"]
 	path = tempus
-	url = http://github.com/aappleby/tempus
+	url = https://github.com/aappleby/tempus.git
